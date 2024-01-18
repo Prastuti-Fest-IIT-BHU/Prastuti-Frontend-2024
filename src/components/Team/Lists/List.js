@@ -24,10 +24,10 @@ const listnamesNames = {
   pos_4: "Event",
   pos_5: "Marketing",
   pos_6: "Publicity",
-  pos_7: "Finance",
+  pos_7: "Public Relations",
   pos_8: "Social Media",
-  pos_9: "Content",
-  
+  pos_9: "Video",
+  pos_10: "Content",
   pos_11: "Workshop",
 };
 
