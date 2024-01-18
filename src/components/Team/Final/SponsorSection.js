@@ -148,7 +148,7 @@ function PosSection(props) {
 
         </div>
       </div>
-    </div>
+   
   );
 }
 
