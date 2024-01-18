@@ -1,6 +1,6 @@
-import Card from './Card.js';
-import classes from './SponsorSection.module.css';
-import data from '../TeamData'
+import Card from "./Card.js";
+import classes from "./SponsorSection.module.css";
+import data from "../TeamData";
 
 function PosSection(props) {
   return (
@@ -10,7 +10,12 @@ function PosSection(props) {
 
         <div className={classes.cards} id="pos_1">
           {data.convener.map((item, index) => (
-            <Card img={item.img} position={item.position} name={item.name} key={index} />
+            <Card
+              img={item.img}
+              position={item.position}
+              name={item.name}
+              key={index}
+            />
           ))}
         </div>
       </div>
@@ -18,15 +23,25 @@ function PosSection(props) {
         <h1>Tech Team</h1>
         <div className={classes.cards}>
           {data.tech.map((item, index) => (
-                <Card img={item.img} position={item.position} name={item.name} key={index} />
-              ))}
+            <Card
+              img={item.img}
+              position={item.position}
+              name={item.name}
+              key={index}
+            />
+          ))}
         </div>
       </div>
       <div className={classes.pos_title} id="pos_3">
         <h1>Design Team</h1>
         <div className={classes.cards}>
           {data.design.map((item, index) => (
-            <Card img={item.img} position={item.position} name={item.name} key={index} />
+            <Card
+              img={item.img}
+              position={item.position}
+              name={item.name}
+              key={index}
+            />
           ))}
         </div>
       </div>
@@ -34,8 +49,13 @@ function PosSection(props) {
         <h1>Event Team</h1>
         <div className={classes.cards}>
           {data.event.map((item, index) => (
-                <Card img={item.img} position={item.position} name={item.name} key={index} />
-              ))}
+            <Card
+              img={item.img}
+              position={item.position}
+              name={item.name}
+              key={index}
+            />
+          ))}
         </div>
       </div>
 
@@ -44,7 +64,12 @@ function PosSection(props) {
 
         <div className={classes.cards}>
           {data.marketing.map((item, index) => (
-            <Card img={item.img} position={item.position} name={item.name} key={index} />
+            <Card
+              img={item.img}
+              position={item.position}
+              name={item.name}
+              key={index}
+            />
           ))}
         </div>
       </div>
@@ -52,7 +77,12 @@ function PosSection(props) {
         <h1 id="pos_2">Publicity Team</h1>
         <div className={classes.cards}>
           {data.public.map((item, index) => (
-            <Card img={item.img} position={item.position} name={item.name} key={index} />
+            <Card
+              img={item.img}
+              position={item.position}
+              name={item.name}
+              key={index}
+            />
           ))}
         </div>
       </div>
@@ -60,7 +90,12 @@ function PosSection(props) {
         <h1 id="pos_3">PR Team</h1>
         <div className={classes.cards}>
           {data.pr.map((item, index) => (
-            <Card img={item.img} position={item.position} name={item.name} key={index} />
+            <Card
+              img={item.img}
+              position={item.position}
+              name={item.name}
+              key={index}
+            />
           ))}
         </div>
       </div>
@@ -68,7 +103,12 @@ function PosSection(props) {
         <h1>Social Media Team</h1>
         <div className={classes.cards}>
           {data.socialMedia.map((item, index) => (
-            <Card img={item.img} position={item.position} name={item.name} key={index} />
+            <Card
+              img={item.img}
+              position={item.position}
+              name={item.name}
+              key={index}
+            />
           ))}
         </div>
       </div>
@@ -76,7 +116,12 @@ function PosSection(props) {
         <h1>Video Team</h1>
         <div className={classes.cards}>
           {data.video.map((item, index) => (
-            <Card img={item.img} position={item.position} name={item.name} key={index} />
+            <Card
+              img={item.img}
+              position={item.position}
+              name={item.name}
+              key={index}
+            />
           ))}
         </div>
       </div>
@@ -84,7 +129,12 @@ function PosSection(props) {
         <h1>Content Team</h1>
         <div className={classes.cards}>
           {data.content.map((item, index) => (
-            <Card img={item.img} position={item.position} name={item.name} key={index} />
+            <Card
+              img={item.img}
+              position={item.position}
+              name={item.name}
+              key={index}
+            />
           ))}
         </div>
       </div>
@@ -95,7 +145,9 @@ function PosSection(props) {
            <Card img={item.img} position={item.position} name={item.name} key={index} />
          ))}
         </div>
+
         </div>
+      </div>
     </div>
   );
 }

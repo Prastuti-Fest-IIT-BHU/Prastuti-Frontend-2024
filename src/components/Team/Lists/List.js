@@ -14,7 +14,7 @@ const listnamess = {
   pos_9: null,
   pos_10: null,
   pos_11: null,
-  pos_12: null,
+  // pos_12: null,
 };
 
 const listnamesNames = {
@@ -65,7 +65,7 @@ function List() {
         listnamess[key] =
           document.getElementById(key).getBoundingClientRect().top + curScroll;
       } catch (e) {
-        return
+        return;
       }
     }
     Scroll();
