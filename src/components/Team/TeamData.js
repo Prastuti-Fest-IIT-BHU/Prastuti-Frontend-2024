@@ -15,6 +15,7 @@ import c16 from './prastuti-photos/Yashpal.jpg'
 import c17 from './prastuti-photos/Khushi.jpg'
 import c18 from './prastuti-photos/Shiddharth.jpeg'
 import c19 from './prastuti-photos/Rishabh.jpg'
+import c from './prastuti-photos/Ayushman.jpg'
 const data = {
   convener: [
     {
@@ -50,6 +51,12 @@ const data = {
       img: c6,
       position: 'Publicity Head',
       name: 'Oaj Avasthi'
+    },
+    {
+      id: 21,
+      img: c,
+      position: 'Publicity Head',
+      name: 'Aayushman Suryavanshi'
     }
   ],
   marketing: [
